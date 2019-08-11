@@ -128,6 +128,7 @@ public class RoomFactory{
         Monster g = corruptor();
         g.x = r.width/2;
         g.y = r.height/2;
+        r.monsters.add(g);
         return r;
     }
     
@@ -136,6 +137,7 @@ public class RoomFactory{
         Monster g = dragon();
         g.x = r.width/2;
         g.y = r.height/2;
+        r.monsters.add(g);
         return r;
     }
     
